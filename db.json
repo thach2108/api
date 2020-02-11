@@ -1,5 +1,5 @@
 {
-  "api/currentUser":{
+  "currentUser":{
     "name": "Thach",
     "username": "username fake",
     "auth_type": "NO_SECURITY",
@@ -14,7 +14,7 @@
     "address": "address",
     "phone": "0752-268888888"
   },
-  "api/login/account":{
+  "login/account":{
     "status": "ok",
     "type": "admin",
     "currentAuthority": "admin"
