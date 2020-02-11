@@ -13,5 +13,10 @@
     "country": "Vietnam",
     "address": "address",
     "phone": "0752-268888888"
+  },
+  "login\/account":{
+    "status": "ok",
+    "type": "admin",
+    "currentAuthority": "admin"
   }
 }
