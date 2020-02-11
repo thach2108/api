@@ -1,14 +1,22 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "test": {
-      "tt" : "âsdfasd" 
-    },
-    "name": "typicode"
+  "api/currentUser":{
+    "name": "Thach",
+    "username": "username fake",
+    "auth_type": "NO_SECURITY",
+    "avatar": "https:\/\/gw.alipayobjects.com/zos/antfincdn/XAosXuNZyF/BiazfanxmamNRoxxVxka.png",
+    "userid": "00000001",
+    "email": "antdesign@alipay.com",
+    "title": "title",
+    "group": "UED",
+    "notifyCount": 12,
+    "unreadCount": 11,
+    "country": "Vietnam",
+    "address": "address",
+    "phone": "0752-268888888"
+  },
+  "api/login/account":{
+    "status": "ok",
+    "type": "admin",
+    "currentAuthority": "admin"
   }
 }
