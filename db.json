@@ -14,9 +14,54 @@
     "address": "address",
     "phone": "0752-268888888"
   },
-  "login\/account":{
-    "status": "ok",
-    "type": "admin",
-    "currentAuthority": "admin"
+  "aiTrain" :{
+    "count": 31,
+    "next": "http:\/\/xxx.yy/api/ai_models?ordering=&page=2&page_size=16",
+    "previous": null,
+    "results": [
+      {
+        "uuid": "xxx1",
+        "name": "ai_model_name1",
+        "type": "Anomaly-Detection",
+        "customer": {
+          "uuid": "yyyzzz1",
+          "name": "a_name1"
+        },
+        "asset": {
+          "uuid": "xyz1231",
+          "name": "asset_name1"
+        },
+        "batch_size": 100,
+        "train_length": 30,
+        "test_length": 30,
+        "epoch": 1000,
+        "cycle": 1,
+        "key": "None",
+        "others": {}
+      },
+
+      {
+        "uuid": "xxx$2",
+        "name": "ai_model_name$2",
+        "type": "Anomaly-Detection",
+        "customer": {
+          "uuid": "yyyzzz$2",
+          "name": "a_name$2"
+        },
+        "asset": {
+          "uuid": "xyz123$2",
+          "name": "asset_name$2"
+        },
+        "batch_size": 100,
+        "train_length": 30,
+        "test_length": 30,
+        "epoch": 1000,
+        "cycle": 1,
+        "key": "None",
+        "others": {}
+      }
+    ],
+    "page": 1
   }
+
 }
