@@ -1,5 +1,5 @@
 {
-  "currentUser":{
+  "currentUser": {
     "name": "Thach",
     "username": "username fake",
     "auth_type": "NO_SECURITY",
@@ -14,12 +14,11 @@
     "address": "address",
     "phone": "0752-268888888"
   },
-  "aiTrain" :{
+  "aiTrain": {
     "count": 31,
     "next": "http:\/\/xxx.yy/api/ai_models?ordering=&page=2&page_size=16",
     "previous": null,
-    "results": [
-      {
+    "results": [{
         "uuid": "xxx1",
         "name": "ai_model_name1",
         "type": "Anomaly-Detection",
@@ -63,7 +62,136 @@
     ],
     "page": 1
   },
-  "aiTrain___xxx1" : {
+  "aiTrain___xxx1": {
 
+  },
+  "alarms": {
+
+    "count": 31,
+    "next": "http:\/\/xxx.yy/api/ai_models?ordering=&page=2&page_size=16",
+    "previous": null,
+    "results": [{
+        "uuid": "xxx1",
+        "name": "alarm_name1",
+        "type": "Anomaly-Detection",
+        "customer": {
+          "uuid": "yyyzzz",
+          "name": "a_name"
+        },
+        "group": {
+          "uuid": "xyz123",
+          "name": "group_name"
+        },
+        "asset_type": "wav",
+        "status": 0,
+        "topo_settings": {
+          "preprocessing": {
+            "bandpass_filter": "frequency_low_cut",
+            "reduce_noise": 0,
+            "options": ["option1", "option2"],
+            "others": {}
+          },
+          "ai_model": {
+            "model": {
+              "uuid": "xxx1",
+              "name": "model_name"
+            },
+            "settings": {
+              "low_level": 30,
+              "high_level": 60
+            },
+            "others": {}
+          },
+          "graph_type": "line_graph",
+          "message": {
+            "uuid": "xxx1",
+            "name": "mesage_name"
+          }
+        },
+        "others": {}
+      },
+
+      {
+        "uuid": "xxx2",
+        "name": "alarm_name2",
+        "type": "Anomaly-Detection",
+        "customer": {
+          "uuid": "yyyzzz",
+          "name": "a_name"
+        },
+        "group": {
+          "uuid": "xyz123",
+          "name": "group_name"
+        },
+        "asset_type": "wav",
+        "status": 0,
+        "topo_settings": {
+          "preprocessing": {
+            "bandpass_filter": "frequency_low_cut",
+            "reduce_noise": 0,
+            "options": ["option1", "option2"],
+            "others": {}
+          },
+          "ai_model": {
+            "model": {
+              "uuid": "xxx1",
+              "name": "model_name"
+            },
+            "settings": {
+              "low_level": 30,
+              "high_level": 60
+            },
+            "others": {}
+          },
+          "graph_type": "line_graph",
+          "message": {
+            "uuid": "xxx1",
+            "name": "mesage_name"
+          }
+        },
+        "others": {}
+      }
+    ],
+    "page": 1
+  },
+  "alarms___xxx1": {
+    "uuid": "xxx1",
+    "name": "alarm_name1",
+    "type": "Anomaly-Detection",
+    "customer": {
+      "uuid": "yyyzzz",
+      "name": "a_name"
+    },
+    "group": {
+      "uuid": "xyz123",
+      "name": "group_name"
+    },
+    "asset_type": "wav",
+    "status": 0,
+    "topo_settings": {
+      "preprocessing": {
+        "bandpass_filter": "frequency_low_cut",
+        "reduce_noise": 0,
+        "options": ["option1", "option2"],
+        "others": {}
+      },
+      "ai_model": {
+        "model": {
+          "uuid": "xxx1",
+          "name": "model_name"
+        },
+        "settings": {
+          "low_level": 30,
+          "high_level": 60
+        },
+        "others": {}
+      },
+      "graph_type": "line_graph",
+      "message": {
+        "uuid": "xxx1",
+        "name": "mesage_name"
+      }
+    },
+    "others": {}
   }
 }
