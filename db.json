@@ -41,16 +41,16 @@
       },
 
       {
-        "uuid": "xxx$2",
-        "name": "ai_model_name$2",
+        "uuid": "xxx2",
+        "name": "ai_model_name2",
         "type": "Anomaly-Detection",
         "customer": {
-          "uuid": "yyyzzz$2",
-          "name": "a_name$2"
+          "uuid": "yyyzzz2",
+          "name": "a_name2"
         },
         "asset": {
-          "uuid": "xyz123$2",
-          "name": "asset_name$2"
+          "uuid": "xyz1232",
+          "name": "asset_name2"
         },
         "batch_size": 100,
         "train_length": 30,
@@ -64,6 +64,6 @@
     "page": 1
   },
   "aiTrain___xxx1" : {
-    
+
   }
 }
